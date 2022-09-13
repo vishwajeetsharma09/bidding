@@ -87,8 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  
         'NAME': 'sdp-2',  
         'USER': 'root',  
-        'PASSWORD': 'Piro@1234',  
-          
+        'PASSWORD': 'Piro@1234',
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
         }  
@@ -137,6 +136,8 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 LOGIN_URL='/login/'
+Login_URl='/home/'
+
 
 
 
